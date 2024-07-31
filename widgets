@@ -1,0 +1,44 @@
+ 1.Widgets describe what their view should look like given their current
+ configuration and state.
+ 2.It includes a text widget, row widget, column widget, container widget,
+ and many more.
+ 3.Each element on the screen of the Flutter app is a widget. The view of the screen completely
+ depends upon the choice and sequence of the widgets used to build the apps.
+ 4.There are mainly 14 categories into which the flutter widgets are divided.
+
+ Accessibility-These are the set of widgets
+ that make a Flutter app more easily accessible.
+
+ Animation and Motion- These are the set of widgets that make a Flutter app more easily accessible.
+
+ Assets, Images, and Icons-These widgets take charge of assets such as display
+ images and show icons.
+
+ Async --These provide async functionality in the Flutter application
+scrolling
+styling
+text
+material components
+layout
+interaction models
+painting and effects
+input
+basics
+cupertino
+
+
+STATELESS WIDGET
+: These are used for static content or UI content that don’t need a change after time.
+Key Characterstics of Stateless Widgets are: Immutable , No State and Lightweight.
+
+Examples: Display Text , Icons, Images, etc.
+
+STATEFUL WIDGET
+ These are used for dynamic change in the properties and appearance over the time.
+Key Characterstics of Stateful Widgets are: Mutable State , State Lifecycle and Dynamic Updates.
+
+Examples: Buttons, Sliders, Text Fields, etc.
+
+
+
+c

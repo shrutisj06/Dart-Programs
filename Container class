@@ -1,0 +1,5 @@
+A Container class can be used to store one or more widgets
+ and position them on the screen according to our convenience
+
+A basic container element that stores a widget has a margin,
+ which separates the present container from other content

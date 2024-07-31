@@ -1,0 +1,69 @@
+Flutter Architecture:
+
+in flutter the main thing we have to work is widget tree.
+we have to embrace platform differences.
+
+one codebase is used in flutter.
+it is in dart language.
+
+WIDGETS
+MY APP--MATERIAL APP--MY HOME PAGE--SCAFFOLD
+
+the .idea -->
+folder contains your code editor's project related settings
+specific files.
+no need to make any manual changes here.
+
+Android-->
+The android folder inside the flutter project contains android platform specific
+settings,resources and code.
+if we need to make any platform specific code,we will make changes in here.
+
+IOS-->
+The IOS folder inside the flutter project contains IOS platform specific
+settings,resources and code.
+
+lib-->
+the main folder where we will write all the flutter app related codes.
+initially it contains just one single file main.dart which has the entry point.
+
+test-->
+test folder is set to contain any testing relates codes that you write.
+if we decide to write test cases then we write here.
+
+gitignore-->
+this is a git specific file.
+you can adjust the .gitignore file to include/exclude any files/folders as your need.
+
+.metadata-->
+it contains the flutter project related metadata that flutter tool uses.
+you should not make any manual changes to the file.
+packages-->
+A flutter project code is composed of numerous libraries and packages.
+some packages are pre installes while others are downloaded during development.
+you dont need to make any manual changes to the file.
+
+pubspec.yaml-->
+it contains flutter app specific metadata and configurations.
+you can configure dependencies such as external packages,image assets,
+font files etc.
+we will often make changes to this file to add external dependencies.
+
+pubspec.lock-->
+it is a helper file created next to puspec.yaml file.
+it lists the specific versions of each dependency that packages use in
+your app and ensures the version stays consistent across
+different developers machine.
+no need to make any changes here.
+
+readme.md-->
+it is a markdown format file which is primarily used to describe your project
+in git repo
+we cna write project specfic things like what your project does or
+how to use certain libraries in the file.
+
+
+
+
+
+
